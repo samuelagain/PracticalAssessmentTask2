@@ -68,14 +68,13 @@ def csvgoals():
 	p1 = multiprocessing.Process(target=odemtrysubscriber)
 	p1.start()
 
-	print("herloooo!")
 	#remaining process to maintain movebase server for goal seeking
 	rospy.init_node("simple_goal_seeker" , anonymous=True)
 
 	filename = "coordinates.csv"
 	coordslist = parseCSV(filename)
 
-	print("Coords_list loaded!")
+	#print("Coords_list loaded!")
 
 	##typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction> MoveBaseClient
 
