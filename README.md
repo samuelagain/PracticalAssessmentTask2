@@ -24,7 +24,7 @@ The result of the navigation to each respective coordinate is stored in the thir
 The file is to be always called
 ```coordinates.csv```
 
-It is to be kept directly in the catkin workspace and not any subfolders
+It is to be kept directly in the catkin workspace and not any subfolders.
 
 
 # Usage
