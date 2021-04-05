@@ -14,7 +14,7 @@ In order to run the attached demo the following packages are required:
 
 Copy the directory ```task2``` into the ```/src``` folder of your catkin workspace.
 
-If you do not have a catkin workspace instruction for istallation can be found here (http://wiki.ros.org/catkin)
+If you do not have a catkin workspace, instruction for installation can be found here (http://wiki.ros.org/catkin)
 
 # Configuring and reading the CSV file
 Coordinates are to be entered in the csv file with the first column being the x coordinate and the second column being the y coordinate.
