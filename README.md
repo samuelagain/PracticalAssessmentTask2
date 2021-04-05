@@ -49,7 +49,7 @@ It is to be kept directly in the catkin workspace and not any subfolders.
 
 ```source devel/setup.bash```
 
-8. Run the cs-vgoal-seeking node.
+8. Run the csv-goal-seeking node.
 
 For the python version:
 
