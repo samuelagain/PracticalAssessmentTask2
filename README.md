@@ -21,7 +21,7 @@ Coordinates are to be entered in the csv file with the first column being the x 
 The next coordinate is stored on the new line.
 The result of the navigation to each respective coordinate is stored in the third column adjacent to its relevant coordinate.
 
-The file is to be always called
+The file is to be always called:
 ```coordinates.csv```
 
 It is to be kept directly in the catkin workspace and not any subfolders.
@@ -49,7 +49,7 @@ It is to be kept directly in the catkin workspace and not any subfolders.
 
 ```source devel/setup.bash```
 
-8. Run the csv-goal-seeking node.
+8. Run the csv-goal-seeking node. Before doing so ensure the coordinates.csv file is in the main directory of the your catkwin workspace.
 
 For the python version:
 
