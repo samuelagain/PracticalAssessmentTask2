@@ -52,8 +52,10 @@ It is to be kept directly in the catkin workspace and not any subfolders
 8. Run the cs-vgoal-seeking node.
 
 For the python version:
+
 ```rosrun task2 csvgoals.py```
 
 For the c++ version:
+
 ```rosrun task2 csvgoals```
 
