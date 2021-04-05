@@ -17,10 +17,31 @@ If you do not have a catkin workspace instruction for istallation can be found h
 
 # Usage
 
-1. Navigate to your catkin workspace. Using Terminal:
+1. Launch the Husky Gazebo Environment:
+
+``` roslaunch husky_gazebo husky_playpen.launch ```
+
+2. In a seperate terminal, launch the Husyky Move Base Server Environment:
+
+``` roslaunch husky_navigation move_base_mapless_demo.launch ```
+
+3. Navigate to your catkin workspace. Using Terminal:
 
   ```cd <your-catkin-workspace>```
 
-2. Run in terminal
+4. Build the ros nodes:
 
-  ```bash runtask1.sh```
+```catkin build```
+
+6. Add the source to the package:
+
+```source devel/setup.bash```
+
+8. Run the goal seeking specific node you seek.
+
+For the python version:
+```rosrun task2 csvgoals.py```
+
+For the c++ version:
+```rosrun task2 csvgoals```
+
