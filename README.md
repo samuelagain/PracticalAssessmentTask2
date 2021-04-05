@@ -33,7 +33,7 @@ It is to be kept directly in the catkin workspace and not any subfolders.
 
 ``` roslaunch husky_gazebo husky_playpen.launch ```
 
-2. In a seperate terminal, launch the Husyky Move Base Server Environment:
+2. In a seperate terminal, launch the Husyky Move Base Server:
 
 ``` roslaunch husky_navigation move_base_mapless_demo.launch ```
 
